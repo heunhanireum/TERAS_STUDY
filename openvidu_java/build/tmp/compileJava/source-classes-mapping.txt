@@ -1,0 +1,7 @@
+io/openvidu/mvc/java/LoginController.java
+ io.openvidu.mvc.java.LoginController
+ io.openvidu.mvc.java.LoginController$MyUser
+io/openvidu/mvc/java/App.java
+ io.openvidu.mvc.java.App
+io/openvidu/mvc/java/SessionController.java
+ io.openvidu.mvc.java.SessionController

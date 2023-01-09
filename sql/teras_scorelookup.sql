@@ -1,0 +1,14 @@
+insert into score_look_up (date, score, subject_code, user_id) values ("APRIL", 100, "MATH", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("APRIL", 95, "SCIENCE", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("APRIL", 90, "KOREAN", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("APRIL", 85, "ENGLISH", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("APRIL", 80, "SOCIAL", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("APRIL", 75, "MUSIC", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("APRIL", 70, "ART", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("JULY", 65, "MATH", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("JULY", 60, "SCIENCE", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("JULY", 55, "KOREAN", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("JULY", 50, "ENGLISH", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("JULY", 45, "SOCIAL", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("JULY", 40, "MUSIC", "ssafy");
+insert into score_look_up (date, score, subject_code, user_id) values ("JULY", 35, "ART", "ssafy");

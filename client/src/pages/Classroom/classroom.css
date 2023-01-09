@@ -1,0 +1,63 @@
+.classroomFelxContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.classroomGridContainer {
+  display: grid;
+  grid-template-columns: 700px 400px;
+  grid-template-rows: 100px 500px 100px;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.videoContainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: yellow;
+}
+
+.chatPanel {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: green;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: blue;
+}
+
+.subjectBox {
+  height: 70px;
+  width: 170px;
+  border-radius: 25px;
+  background-color: #16995a;
+  flex: 2 1 0;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.goalBox {
+  flex: 8 1 0;
+  display: flex;
+  justify-content: center;
+}

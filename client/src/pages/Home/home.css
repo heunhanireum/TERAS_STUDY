@@ -1,0 +1,128 @@
+.mainFlexContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.mainGridContainer {
+  display: grid;
+  grid-template-columns: 350px 1000px;
+  grid-template-rows: 150px 800px;
+  margin-top: 20px;
+}
+
+.headerGridContainer {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-template-columns: 400px 950px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.navBar {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.sideBarGridContainer {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-template-rows: 250px 550px;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.timeTableGridContainer {
+  display: grid;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-template-rows: 80px 450px;
+}
+
+.classRoomButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.timeTableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.dashBoardFlexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.dashBoardContainer {
+  display: grid;
+  grid-template-rows: 50px 700px;
+  width: 980px;
+  height: 750px;
+}
+
+.navTabContainer {
+  display: flex;
+  align-items: stretch;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.componentContainer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: white;
+}
+
+.navTabButton {
+  flex-grow: 1;
+  background-color: #e0ffc1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 0 thin;
+  border-color: #f4f4f4;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+
+}
+
+.selectedTab {
+  background-color: white;
+  border-color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  display:box !important;
+  box-shadow: 5px !important;
+  filter: none;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.openvidu.mvc.java.test.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-03T02:02:27" hostname="DESKTOP-KVCQHCD" time="0.0">
+  <properties/>
+  <testcase name="testApp" classname="io.openvidu.mvc.java.test.AppTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

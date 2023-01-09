@@ -1,0 +1,2 @@
+io/openvidu/mvc/java/test/AppTest.java
+ io.openvidu.mvc.java.test.AppTest

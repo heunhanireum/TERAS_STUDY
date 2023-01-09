@@ -1,0 +1,8 @@
+.profileBox {
+  width: 280px;
+  height: 230px;
+  background-color: white;
+  border: solid;
+  border-color: #f4f4f4;
+  border-width: thin;
+}
